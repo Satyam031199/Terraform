@@ -1,7 +1,7 @@
 provider "aws" {
     region = "us-east-1"
-    access_key = "AKIAYS2NWMPCZHNPJEOZ"
-    secret_key = "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"
+    access_key = "AWS ACCESS KEY"   # Create using IAM
+    secret_key = "AWS SECRET KEY"
 }
 
 variable "subnet_cidr" {
